@@ -1,0 +1,48 @@
+img{
+    height: 150px;
+    float: right;
+}
+h1{
+    background-color:slategrey;
+    color: white;
+    text-align: center;
+    border: 1px solid;
+    font-family: Calibri;
+}
+a{
+    color: blue;
+    font-family: Calibri;
+}
+h2{
+    background-color: slategrey;
+    color: white;
+    font-family: Calibri;
+}
+li{
+    font-family: Calibri;
+}
+li>strong{
+    color: #21202f;
+}
+p{
+    text-align: justify;
+    font-family: Calibri;
+}
+.ind{
+    font-size: smaller;
+    color: #21202f;
+    font-family: Calibri;
+}
+table{
+    float: center;
+}
+table>thead>tr>th{
+    color: #21202f;
+    font-weight: bold;
+    text-align: center;
+    font-family: Calibri;
+}
+table>tbody>tr>td{
+    text-align: center;
+    font-family: Calibri;
+}

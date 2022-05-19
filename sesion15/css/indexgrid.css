@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.grid {
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas: "head head head" "nav main aside" "foot foot foot" ;
+}
+
+
+header {
+    grid-area: head;
+    background-color: blueviolet;
+}
+
+nav {
+    grid-area: nav;
+    background-color: cornflowerblue;
+}
+
+section {
+    grid-area: main;
+    background-color: indigo ;
+}
+
+aside {
+    grid-area: aside;
+    background-color: darkmagenta;
+}
+
+footer {
+    grid-area: foot;
+    background-color: darkorchid;
+}

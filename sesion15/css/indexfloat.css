@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color:blueviolet;
+    height: 12.5em;
+}
+
+nav {
+    background-color: cornflowerblue;
+    width: 15%;
+
+}
+
+section {
+    background-color: indigo;
+    width: 70%;
+}
+
+ aside {
+     background-color: darkmagenta;
+     width: 15%;
+     
+ }
+
+ footer {
+     background-color: darkorchid;
+     height: 5em;
+     clear: left;
+
+ }
+
+ nav, aside, section {
+    float: left;
+    height: 21.25em;
+ }
+
+ a {
+     text-decoration: none;
+ }

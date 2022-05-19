@@ -1,0 +1,24 @@
+
+body {
+	font-size: 1.5em ;
+}
+caption, .titulo{
+    background-color:rgb(46, 182, 46);
+    font-weight: bold;
+}
+
+th {
+    background-color:rgb(255, 156, 27);
+    font-weight: bold;
+}
+
+.foot  {
+
+    background-color: rgb(104, 0, 0);
+    color: #fff;
+    font-weight: bold;
+}
+
+td {
+    background-color:rgb(73, 118, 255);
+}
