@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.enconstruccion {
+    color: blue;
+}
+
+.grid {
+    width: 90%;
+    margin: 17px auto;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 900px 1fr 0;
+    grid-template-rows: 190px 1fr 1000px;
+    grid-template-areas: "head head""nav nav""sec asi""foot foot";
+}
+
+
+.head {
+    grid-area: head;
+    background-color: #131D34;
+    color: #fff;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: #02091C;
+}
+
+.sec {
+    grid-area: sec;
+    background-color: #fff;
+    color: #000;
+}
+
+.asi {
+    grid-area: asi;
+    background-color: #55B952;
+    color: #fff;
+}
+
+.foot {
+    grid-area: foot;
+    background-color: #131D34;
+    color: #A1A1A1;
+}
+
+.head,
+.nav,
+.sec,
+.asi,
+.foot {
+    padding: 20px;
+    text-align: left;
+
+}
+
+.foot {
+    padding: 20px 0 0 0;
+}
+
+.navegacion {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-left: 5em;
+    color: #fff;
+
+}
+
+.enlaces {
+    color: #fff;
+}
+
+.inferior {
+    float: left;
+    margin-left: 6em;
+    margin-top: 2em;
+}
+
+
+.navinferior {
+    list-style: none;
+}
+
+.navinferior a {
+    text-decoration: none;
+    color: #A1A1A1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    background-color: #30602F;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+header>img {
+    float: left;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+
+footer>img {
+    margin-top: 2em;
+    margin-left: 6em;
+}
+
+.texto-footer {
+    margin-left: 2.5em;
+}
+
+
+.webmaster {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background-color: #000;
+}
+
+.noticia {
+    margin-top: 3em;
+}
